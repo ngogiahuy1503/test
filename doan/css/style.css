@@ -1,0 +1,205 @@
+body{
+	background:url(../images/bg2.png);
+	background-repeat:repeat-y;
+	background-color:#CCC;
+	background-attachment:fixed;
+	text-align:center;
+	
+	text-align:center;
+	font-size:14px;
+	
+	background-attachment: fixed;
+	background-position: center;
+
+
+}
+a
+{
+	text-decoration:none;
+	
+}
+.container{
+	width:960px;
+	
+
+	margin:auto;
+	text-align:center
+}
+.header{
+	height:190px;
+	width:960px;
+	background:url(../images/bg-header.jpg);
+	
+}
+#menu{
+	height:50px;
+	border-bottom:1px;
+	padding:5px;
+	background:#C30;
+}
+#menu a
+{
+	color:#FFF;
+}
+#menu div{
+	width:10%;
+	margin-left:10px;
+	float:left;
+	line-height:50px;
+	padding:0 30px;
+	color:#fff;
+	text-align:center;
+}
+
+.menu_left{
+	width: 195px;
+	border:1px solid #CCC;
+	margin: 10px 5px;
+	float: left;
+	
+}
+
+.a{ 
+	height: 40px;
+
+	color: #FFF; 
+	background-size: 300px;
+	line-height: 40px;
+	padding: 0 0 0 15px;
+	/*background:url(../images/bgn_menu2.png);*/
+	background-repeat:no-repeat;
+}
+
+.danhsach div{
+	color: #900;
+	border-bottom: 1px dashed #ccc;
+	padding: 5px 0 5px 5px;
+	margin: 0 10px;
+}
+.d{
+	color:#FFF;
+	background:#c30;
+	height:35px;
+	text-align:center;
+	padding-top:10px;
+}
+
+.content{
+	width:735px;
+	float:right;
+	margin :10px 0px 0px 10px;
+	
+}
+.center-title{
+	background:url(../images/chantrang.jpg);
+	background-repeat:no-repeat;
+	line-height:33px;
+	color:#FFF;
+	text-align:left;
+}
+.box{
+	margin-top:10px;
+}
+.title{
+ background:url(../images/bg_tieude3.jpg);
+ background-repeat:no-repeat;
+ line-height:30px;
+ text-align:center;
+ color:#FFF;
+ margin-top:20px;
+}
+.box_content{
+	border:1px solid #CCC;
+	padding:2px;
+	text-align:center;
+	height:195px;
+}
+.pro_title
+{
+	text-align:center;
+	font-weight:bold;
+	color:#F00;
+	font-size:14px;
+}
+.pro_price
+{
+	text-align:center;
+	color:#F00;
+	font-weight:bold;
+	width:50%;
+	float:left;
+	font-size:14px;
+}
+.oldprice
+{
+	text-align:center;
+	color:#847676;
+	text-decoration:line-through;
+	width:50%;
+	float:right;
+	font-size:14px;
+}
+#footer
+{
+	height:60px;
+	color:#847676;
+	font-size:12px;
+	text-align:center;
+	line-height:20px;
+	font-style:italic;
+	
+}
+.sp
+{
+
+	
+	float:left;
+	margin: 10px 10px 10px 10px;
+	border:#000;
+}
+.hinh
+{
+	width:100%;
+	height:135px;
+	clear:both
+}
+.ten 
+{
+	width:100%;
+	height:40px;
+	clear:both;
+}
+.gia
+{
+	width::100%;
+	height:30px;
+	clear:both;
+	}
+.cont_sanpham{
+color:#c30;
+width:735px;
+height:35px;
+text-align:left;
+font-size:26px;
+}
+.cont_hang{
+
+width:725px;
+height:25px;
+background:#c30;
+color:#fff;
+text-align:left;
+padding-top:2px;
+
+}
+.cont_sp{
+width:735px;
+height:35px;
+background:#fff;
+
+
+}
+.sp
+{
+	background:#999;
+}

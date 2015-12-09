@@ -1,0 +1,49 @@
+/* CSS Document */
+body
+{
+	background-color:#FFF;
+	text-align: center;
+	
+}
+#container_ad
+{
+	width:960px;
+	height:auto;
+	margin: auto;
+	text-align:center;
+	line-height:inherit;
+	
+}
+#banner_ad
+{
+	width:960px;
+	height:173px;
+	background-image:url(../images/bg-header.jpg);
+	background-repeat:no-repeat;
+}
+#menu_ad a
+{
+	width:140px;
+	height:30px;
+	padding:10px;
+	background-color:#0CF;
+	color:#000;
+	font-weight:bold;
+	display:block;
+	float:left;
+	text-align:center;
+	text-decoration:none;
+	
+}
+#menu_ad a:hover
+{
+	background-color:#9F0;
+}
+#content_ad
+{
+	width: 960px;
+	height: auto;
+	float: left;
+	margin-top: 10px;
+	text-align: left;
+}
