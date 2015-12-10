@@ -2,7 +2,19 @@
 include"connection.php";
 include"qtri.php";
  ?>
- 
+ <?php 
+ ob_start();
+ session_start();
+
+ if(!isset($_SESSION['id']))
+ {
+	 header("location:../index.php");
+ }
+ else if($_SESSION['phanquyen']==0)
+ {
+	 header("location:../index.php");
+}
+ ?>
  <?php
 	$malh=$_GET["malh"];
 	$stt=chitiethang($malh);
