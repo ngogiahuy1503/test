@@ -2,7 +2,7 @@
 include"connection.php";
 include"qtri.php";
  ?>
-  <?php 
+ <?php 
  ob_start();
  session_start();
 
@@ -35,7 +35,7 @@ header("location:listlienhe.php");
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<title>sua lienhe</title>
 <link rel="stylesheet" type="text/css" href="../css/stylead.css"/>
 <style type="text/css">
 #container_ad #content_ad table tr td {
