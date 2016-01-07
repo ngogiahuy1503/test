@@ -1,10 +1,10 @@
 
 <?php
 $mahang=$_GET['c'];
-$q=danhsach_sanpham($mahang);
+$ql=danhsach_sanpham($mahang);
 ?>
 <?php
-while($row=mysql_fetch_array($q))
+while($row=mysql_fetch_array($ql))
 {
 	ob_start();
 ?>
